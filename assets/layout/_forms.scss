@@ -1,0 +1,100 @@
+main{
+    .section1{
+        background-image: url(https://img.freepik.com/free-vector/abstract-low-poly-orange-yellow-background_1017-32111.jpg?w=2000);
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+font-size: 100px;
+color: white;
+        }
+        h3{
+font-size: 50px;
+color:white;
+        }
+        button{
+            margin-top: 100px;
+            height: 70px;
+            width: 170px;
+            border-radius: 25%;
+            border: 0px;
+            background-color: #ee0979;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color:#be0761;
+            }
+        }
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .section2{
+        margin-top:10%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            img{
+                height: 300px;
+                width: 300px;
+                border-radius: 50%;
+                margin-left: 5%;
+            }
+        h1{
+font-size: 50px;
+font-weight: 100;
+color:#212529;
+        }
+        p{
+color:#212567 ;
+        }
+    }
+}
+.section3{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 100;
+        color:#212529;
+                }
+                p{
+        color:#212567 ;
+                }
+}
+.section4{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin-left:5% ;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 100;
+        color:#212529;
+                }
+                p{
+        color:#212567 ;
+                }
+            }
+}
